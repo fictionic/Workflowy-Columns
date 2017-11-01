@@ -1,0 +1,24 @@
+.cols {
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  margin-left: 0 !important;
+}
+.cols > .project {
+  float: left !important;
+  margin-left: 1px !important;
+}
+.cols-2 > .project {
+  width: 49.5% !important;
+}
+.cols-3 > .project {
+  width: 32.8% !important;
+}
+.cols-4 > .project {
+  width: 24.5% !important;
+}
+.cols-5 > .project {
+  width: 19.6% !important;
+}
+.cols-6 > .project {
+  width: 16.2% !important;
+}
