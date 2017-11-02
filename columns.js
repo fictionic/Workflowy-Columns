@@ -45,14 +45,12 @@ window.addEventListener("load", async function go() {
 });
 
 // listen for messages from background script
-chrome.runtime.onMessage.addListener(
-  function(request, sender, sendResponse) {
-    console.log(sender.tab ?  "from a content script:" + sender.tab.url : "from the extension");
-    if (request.greeting == "stop") {
-      teardownRefresh();
-      unMarkColumns();
-    } else {
-      markColumns();
-      setupRefresh();
-    }
-  });
+chrome.runtime.onMessage.addListener(function(message, sender, sendResponse) {
+  if (message == "stop") {
+    teardownRefresh();
+    unMarkColumns();
+  } else {
+    markColumns();
+    setupRefresh();
+  }
+});
