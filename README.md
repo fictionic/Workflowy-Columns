@@ -6,6 +6,10 @@ In action:
 
 ![demo gif](https://thumbs.gfycat.com/SpecificYawningDugong-size_restricted.gif)
 
+## Installation
+
+Download this repository. If you downloaded it as a zip, unzip it. Navigate to chrome://extensions/, and make sure "Developer mode" is checked. Click "Load unpacked extension...", select the downloaded folder, and hit OK.
+
 ## Usage
 
 Include one of the tags `#cols-2`, `#cols-3`, etc. (up to `#cols-6`) in the name of a node to make its contents arrange into the desired number of columns.
