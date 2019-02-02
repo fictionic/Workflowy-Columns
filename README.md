@@ -14,7 +14,7 @@ Download this repository. If you downloaded it as a zip, unzip it. Navigate to c
 
 Include one of the tags `#cols-2`, `#cols-3`, etc. (up to `#cols-6`) in the name of a node to make its contents arrange into the desired number of columns.
 Columns can be nested.
-The view refreshes automatically.
+~~The view refreshes automatically.~~ Changes to WorkFlowy's code make this not work anymore. Probably the switch to React. To update the view, simplly toggle the extension on and off by clicking the icon.
 
 Click the extension icon to globally toggle columns functionality.
 
